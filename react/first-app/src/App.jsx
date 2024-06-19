@@ -18,6 +18,11 @@ function App() {
       
       {/* Slash as the "end" of the component is NEEDED */}
        <TShirt />
+       <TShirt />
+       <TShirt />
+       <TShirt />
+       <TShirt />
+       <TShirt />
 
     </div>
   );
