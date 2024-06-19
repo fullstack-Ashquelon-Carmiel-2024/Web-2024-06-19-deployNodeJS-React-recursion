@@ -1,7 +1,10 @@
 import './Header.css';
 
-export const Header = () => {
+const Header = () => {
   return (
     <h1 className="header">TODO</h1>
   )
 }
+
+
+export default Header;
