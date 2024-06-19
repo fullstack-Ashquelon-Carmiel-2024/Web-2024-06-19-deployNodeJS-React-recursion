@@ -1,5 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
+import './components/tShirt/TShirt';
+import TShirt from './components/tShirt/TShirt';
 
 function App() {
   // 0. Everything here in React is written in JSX: combination
@@ -14,20 +15,10 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      {/* Slash as the "end" of the component is NEEDED */}
+       <TShirt />
+
     </div>
   );
 }

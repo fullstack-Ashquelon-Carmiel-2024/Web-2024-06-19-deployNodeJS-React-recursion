@@ -55,12 +55,55 @@ $ npx create-react-app first-app
 
     Rename App.js to App.jsx
 
+    Empty it and leave only:
+
+      import './App.css';
+
+        function App() {
+
+        return (
+            <div className="App">
+            
+            </div>
+        );
+        }
+
+        export default App;
+
    - src/App.css - clear it
 
+   Remove also 4 files from the dir "src":
+     App.test.js, logo.svg, reportWebVitals.js, setupTests.js
 
+5. We can use this first-app to create new React project just by copy 
 
+the directory first-app to the new project directory
 
+(without deleting node_modules - this option is great when the Internet is
+slow)
 
+6. Install VS Code extension:
+
+   ES7+ React/Redux/React-Native/JS snippets
+
+7. Create src/components
+
+8. Create src/components/tShirt/TShirt.css
+      and src/components/tShirt/TShirt.jsx
+
+   In jsx start to type react snippet "rfc" (react functional component)
+
+   and now we get:
+
+   import React from 'react'
+
+export default function TShirt() {
+  return (
+    <div>TShirt</div>
+  )
+}
+
+9. 
 
 
 
