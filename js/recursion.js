@@ -47,3 +47,29 @@ console.log(factorial(6));
  * without using the operator ** or some predefined loop like "for" or "while".
  */
 
+function power(a,n) {
+
+    if (n === 0) return 1;
+    if (n === 1) return a;
+
+    return power(a,n-1) * 3;   
+
+}
+
+// power(3,5)
+// Step1: 5!==0 && 5!==1 => no exit, return power(3,4) * 3
+// Step2: 4!==0 && 4!==1 => no exit, return power(3,3) * 3 // keep *3
+// Step3: 3!==0 && 3!==1 => no exit, return power(3,2) * 3 // keep * 3 * 3
+// Step4: 2!==0 && 2!==1 => no exit, return power(3,1) * 3 // keep * 3 * 3 * 3
+// Step5: 1!==0 but 1===1 => return 3 // * 3 - from the step4 and * 3 * 3 * 3 from the previous steps
+
+
+
+
+
+
+
+
+
+
+
